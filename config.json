@@ -1,10 +1,10 @@
-"platforms": [
-  {
-    "platform": "HomeAssistant",
-    "name": "HomeAssistant",
-    "host": "http://hassbian.local:8123",
-    "password": "raspberry",
-    "supported_types": ["binary_sensor", "climate", "cover", "device_tracker", "fan", "input_boolean", "light", "lock", "media_player", "scene", "sensor", "switch"],
-    "logging": true
-  }
-]
+[{
+	"platforms": [{
+		"platform": "HomeAssistant",
+		"name": "HomeAssistant",
+		"host": "http://hassbian.local:8123",
+		"password": "raspberry",
+		"supported_types": ["binary_sensor", "climate", "cover", "device_tracker", "fan", "input_boolean", "light", "lock", "media_player", "scene", "sensor", "switch"],
+		"logging": true
+	}]
+}]
